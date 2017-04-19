@@ -1,0 +1,5 @@
+C:\Users\attunix\documents\visual studio 2017\Projects\DataStructures\LinkedList\bin\Debug\LinkedList.exe.config
+C:\Users\attunix\documents\visual studio 2017\Projects\DataStructures\LinkedList\bin\Debug\LinkedList.exe
+C:\Users\attunix\documents\visual studio 2017\Projects\DataStructures\LinkedList\bin\Debug\LinkedList.pdb
+C:\Users\attunix\documents\visual studio 2017\Projects\DataStructures\LinkedList\obj\Debug\LinkedList.exe
+C:\Users\attunix\documents\visual studio 2017\Projects\DataStructures\LinkedList\obj\Debug\LinkedList.pdb
