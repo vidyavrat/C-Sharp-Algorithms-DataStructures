@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String and Numbers", "Numbers\String and Numbers.csproj", "{233E74D1-F1FC-4E86-9108-B5549A686447}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{01CC35E1-A67C-4F1C-9FFE-F7260F5247EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{233E74D1-F1FC-4E86-9108-B5549A686447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{233E74D1-F1FC-4E86-9108-B5549A686447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{233E74D1-F1FC-4E86-9108-B5549A686447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CC35E1-A67C-4F1C-9FFE-F7260F5247EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CC35E1-A67C-4F1C-9FFE-F7260F5247EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CC35E1-A67C-4F1C-9FFE-F7260F5247EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CC35E1-A67C-4F1C-9FFE-F7260F5247EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
