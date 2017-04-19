@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{FF077254-B249-4D96-8A3E-94DA04F52959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String and Numbers", "Numbers\String and Numbers.csproj", "{233E74D1-F1FC-4E86-9108-B5549A686447}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings and Numbers", "Numbers\Strings and Numbers.csproj", "{233E74D1-F1FC-4E86-9108-B5549A686447}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{01CC35E1-A67C-4F1C-9FFE-F7260F5247EF}"
 EndProject
