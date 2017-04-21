@@ -20,7 +20,8 @@ namespace Strings
         }
         private static bool IsAnagram(string str1, string str2)
         {
-            if (string.IsNullOrEmpty(str1) || string.IsNullOrWhiteSpace(str1) || string.IsNullOrEmpty(str2) || string.IsNullOrWhiteSpace(str2))
+            if (string.IsNullOrEmpty(str1) || string.IsNullOrWhiteSpace(str1) 
+                || string.IsNullOrEmpty(str2) || string.IsNullOrWhiteSpace(str2))
             {
                 return false;
             }
@@ -30,21 +31,22 @@ namespace Strings
             }
             else
             {                
-                var char1 = str1.ToCharArray();
-                Array.Sort(char1);
-                var char2 = str2.ToCharArray();               
-                Array.Sort(char2);
                 
-                for (int i = 0; i <= str1.Length-1; i++)
+                var char1 = str1.ToLower().ToCharArray();
+                Array.Sort(char1);
+                var char2 = str2.ToLower().ToCharArray();               
+                Array.Sort(char2);
+
+                for (int i = 0; i <= str1.Length - 1; i++)
                 {
-                    if(char1[i] == char2[i])
+                    if (char1[i] == char2[i])
                     {
                         i++;
-                        if(i == str2.Length)
+                        if (i == str2.Length)
                         {
                             return true;
                         }
-                    }                    
+                    }
                 }
             }
             return false;
