@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{233E74D1-F1FC-4E86-9108-B5549A686447}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Numbers</RootNamespace>
-    <AssemblyName>Numbers</AssemblyName>
+    <RootNamespace>StringsAndNumbers</RootNamespace>
+    <AssemblyName>Strings and Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Strings.Anagram</StartupObject>
+    <StartupObject>Strings.ReverseString</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Anagram.cs" />
     <Compile Include="Palindrome using ReverseString.cs" />
+    <Compile Include="RemoveSpacesFromString.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="SwapTwoNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

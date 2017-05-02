@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Strings
 {
@@ -6,17 +7,25 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            var str = "aBcD";
-            var newStr = string.Empty;
+            Console.WriteLine("Enter String You Wish To Be Reversed! : ");
+            var str1 = Console.ReadLine();
 
-            // Reverese string
-            for (var i = str.Length - 1; i >= 0; i--)
-            {
-                newStr += str[i];
-            }
-            Console.WriteLine(newStr);
-            
+            Console.WriteLine(StringReverse(str1));
+
             Console.ReadLine();
+        }
+
+        public static string StringReverse(string str)
+        {
+            var sb = new StringBuilder();
+            
+            // Reverese string
+            for (int i = str.Length - 1; i >= 0; i--)
+            {
+                sb.Append(str[i]);
+            }
+
+            return sb.ToString();          
         }
     }
 }
