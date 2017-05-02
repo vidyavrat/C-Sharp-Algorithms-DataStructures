@@ -17,15 +17,26 @@ namespace Strings
 
         public static string StringReverse(string str)
         {
-            var sb = new StringBuilder();
-            
-            // Reverese string
-            for (int i = str.Length - 1; i >= 0; i--)
+            if (string.IsNullOrEmpty(str) || string.IsNullOrWhiteSpace(str))
             {
-                sb.Append(str[i]);
+                return null;
             }
+            else if (str.Length == 1)
+            {
+                return str;
+            }
+            else
+            {
+                var sb = new StringBuilder();
 
-            return sb.ToString();          
+                // Reverese string
+                for (int i = str.Length - 1; i >= 0; i--)
+                {
+                    sb.Append(str[i]);
+                }
+
+                return sb.ToString();
+            }
         }
     }
 }
