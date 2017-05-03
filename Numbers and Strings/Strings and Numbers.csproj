@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Strings.RemoveDuplicateStrings</StartupObject>
+    <StartupObject>Numbers.RemoveDuplicateNumbers</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
     <Compile Include="Anagram.cs" />
     <Compile Include="FibonacciSeries.cs" />
     <Compile Include="Palindrome.cs" />
+    <Compile Include="RemoveDuplicateNumbers.cs" />
     <Compile Include="RemoveDuplicateStrings.cs" />
     <Compile Include="RemoveSpacesFromString.cs" />
     <Compile Include="ReverseString.cs" />
