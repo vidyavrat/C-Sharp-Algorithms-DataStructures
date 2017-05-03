@@ -8,7 +8,6 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            int result = 0;
             string x = "This is test to reverse string";
             Console.WriteLine($"Original string: {x}");
             //Trim whitespace from beginning and end of string

@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StringsAndNumbers.FibonacciSeries</StartupObject>
+    <StartupObject>Strings.PalindromeUsingReverseString</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,7 +47,7 @@
   <ItemGroup>
     <Compile Include="Anagram.cs" />
     <Compile Include="FibonacciSeries.cs" />
-    <Compile Include="Palindrome using ReverseString.cs" />
+    <Compile Include="Palindrome.cs" />
     <Compile Include="RemoveSpacesFromString.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="ReverseWordsInStringUsingStack.cs" />
