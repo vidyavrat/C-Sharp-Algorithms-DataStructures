@@ -30,8 +30,7 @@ namespace Strings
                 return false;
             }
             else
-            {                
-                
+            {           
                 var char1 = str1.ToLower().ToCharArray();
                 Array.Sort(char1);
                 var char2 = str2.ToLower().ToCharArray();               

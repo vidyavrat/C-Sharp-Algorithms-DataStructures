@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace StringsAndNumbers
+namespace Numbers
 {
     class FibonacciSeries
     {
@@ -28,6 +24,5 @@ namespace StringsAndNumbers
 
             return FibonacciNumber(n - 1) + FibonacciNumber(n - 2);
         }
-
     }
 }
