@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Numbers.RemoveDuplicateNumbers</StartupObject>
+    <StartupObject>Numbers.TidyNumber</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="ReverseWordsInStringUsingStack.cs" />
     <Compile Include="SwapTwoNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TidyNumber.cs" />
     <Compile Include="UniqueCharacterString.cs" />
   </ItemGroup>
   <ItemGroup>
