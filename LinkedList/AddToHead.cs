@@ -1,13 +1,12 @@
 ﻿using System;
 
 namespace LinkedList
-{
-    
+{    
     class AddToHead
     {
         static void Main(string[] args)
         {             
-            Console.Write("Enter data you want to add to the head of linkedList 1->2->3 : ");
+            Console.Write("Enter data you want to add to the Head of linkedList 1->2->3 : ");
 
             var data = Int32.Parse(Console.ReadLine());
 

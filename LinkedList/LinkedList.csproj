@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LinkedList.AddToHead</StartupObject>
+    <StartupObject>LinkedList.AddToTail</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddToHead.cs" />
+    <Compile Include="AddToTail.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="TraverseLinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
