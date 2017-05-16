@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Numbers.TidyNumber</StartupObject>
+    <StartupObject>Numbers.FizzBuzz</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Anagram.cs" />
     <Compile Include="FibonacciSeries.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="RemoveDuplicateNumbers.cs" />
     <Compile Include="RemoveDuplicateStrings.cs" />
