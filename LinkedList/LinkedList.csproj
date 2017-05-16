@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LinkedList.CountLength</StartupObject>
+    <StartupObject>LinkedList.NthFromEnd</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="AddToTail.cs" />
     <Compile Include="CountLength.cs" />
     <Compile Include="Node.cs" />
+    <Compile Include="NthFromEnd.cs" />
     <Compile Include="TraverseLinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
